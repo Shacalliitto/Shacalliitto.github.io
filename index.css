@@ -1,0 +1,108 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+  background-color: rgba(48, 48, 48, 0.452);
+  color: rgb(155, 18, 18);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.home{
+  width: 100px;
+  position: relative;
+  left: 500px;
+}
+.nav{
+  background: rgba(0, 0, 0, 0.685);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Staatliches", cursive;
+  display: flex; 
+  align-items: center;
+}
+
+.title {
+  padding: 0px 0px 0px 15px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 85px;
+  font-family: "Staatliches", cursive;
+  text-shadow: salmon;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 500px;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  margin: 80px;
+  border-radius: 16px;
+}
+
+ul {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  width: 180px;
+  margin: 10px auto 0;
+  padding: 20px;
+  box-sizing: content-box;
+  background: rgba(0, 0, 0, 0.685);
+  align-items: top;
+  border-radius: 16px;
+}
+
+ul li {
+  display: flex;
+  background-color: rgb(39, 37, 37);
+  padding: 10px 20px;
+  color: whitesmoke;
+  margin: 20px 0;
+  transition: 1.0s;
+  border-radius: 16px;
+}
+
+ul li:hover {
+  transform: scale(1.40);
+  background: black;
+  color: whitesmoke;
+  border-radius: 16px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: whitesmoke;
+}
+
+/* visited link */
+a:visited {
+  color: whitesmoke;
+}
+
+/* mouse over link */
+a:hover {
+  color: whitesmoke;
+}
+
+/* selected link */
+a:active {
+  color: whitesmoke;
+}
