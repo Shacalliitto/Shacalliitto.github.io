@@ -8,6 +8,7 @@ body {
   text-decoration: none;
 }
 
+
 .home{
   width: 100px;
   position: relative;
@@ -105,4 +106,8 @@ a:hover {
 /* selected link */
 a:active {
   color: whitesmoke;
+}
+
+.her{
+  position: absolute;  
 }
