@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: content-box;
-  background-color: rgba(48, 48, 48, 0.452);
+  background-color: rgba(70, 69, 69, 0.349);
   color: rgb(155, 18, 18);
   font-size: 25px;
   text-decoration: none;
@@ -13,9 +13,10 @@ body {
   position: left;
   margin: 0;
   transition: 1s;
+  border-radius: 16px;
 }
 .nav {
-  background: rgba(0, 0, 0, 0.685);
+  background: rgb(105, 5, 5);
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: "Staatliches", cursive;
@@ -51,7 +52,7 @@ ul {
   margin: 10px auto 0;
   padding: 10px;
   box-sizing: content-box;
-  background: rgba(0, 0, 0, 0.685);
+  background: rgb(105, 5, 5);
   align-items: top;
   text-align: center;
   border-radius: 16px;
@@ -59,7 +60,7 @@ ul {
 
 ul li {
   display: flex;
-  background-color: rgb(39, 37, 37);
+  background-color: rgb(80, 5, 5);
   padding: 10px 20px;
   color: whitesmoke;
   margin: 20px 0;
@@ -70,7 +71,7 @@ ul li {
 
 ul li:hover {
   transform: scale(1.4);
-  background: rgba(39, 37, 37);
+  background: black;
   color: whitesmoke;
   text-align: center;
   border-radius: 16px;
@@ -121,26 +122,26 @@ a:active {
 }
 
 .fa:hover {
-  background: rgba(39, 37, 37);
+  background: black;
 }
 
 .fa-instagram {
-  background: rgb(39, 37, 37);
+  background: rgb(80, 5, 5);
   color: whitesmoke;
 }
 
 .fa-twitter {
-  background: rgb(39, 37, 37);
+  background: rgb(80, 5, 5);
   color: whitesmoke;
 }
 
 .fa-gmail {
-  background: rgb(39, 37, 37);
+  background: black;
   color: whitesmoke;
 }
 
 .cv {
-  background: rgba(39, 37, 37);
+  background: rgb(80, 5, 5);
   color: whitesmoke;
   position: relative;
   left: 50px;
