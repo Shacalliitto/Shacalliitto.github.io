@@ -91,27 +91,26 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-/* unvisited link */
+
 a:link {
   color: whitesmoke;
 }
 
-/* visited link */
+
 a:visited {
   color: whitesmoke;
 }
 
-/* mouse over link */
+
 a:hover {
   color: whitesmoke;
 }
 
-/* selected link */
+
 a:active {
   color: whitesmoke;
 }
 
-/* Style all font awesome icons */
 .fa {
   padding: 20px;
   font-size: 10px;
@@ -124,15 +123,12 @@ a:active {
 .fa:hover {
   background: rgba(39, 37, 37);
 }
-/* Set a specific color for each brand */
 
-/* Facebook */
 .fa-instagram {
   background: rgb(39, 37, 37);
   color: whitesmoke;
 }
 
-/* Twitter */
 .fa-twitter {
   background: rgb(39, 37, 37);
   color: whitesmoke;
