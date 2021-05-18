@@ -27,7 +27,7 @@ h1{
     display: inline-block;
     align-items: center;
     justify-content: center;
-    background-color: coral;
+    background-color: rgba(65, 105, 225, 0.781);
     border: outset;
     color: black;
     padding: 12px 30px;
@@ -40,13 +40,13 @@ h1{
 }
 
 .btn:hover {
-    background-color: rgba(255, 127, 81, 0.911);
+    background-color: rgba(65, 105, 225, 0.555);
     border: outset;
     color: black;
   }
 
   .btn:active {
-    background-color: rgba(255, 127, 81, 0.911);
+    background-color: rgba(65, 105, 225, 0.555);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
