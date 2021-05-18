@@ -24,7 +24,7 @@ h1{
 .btn{
     font-family: 'Balsamiq Sans', cursive;
     margin-left: 60px;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     background-color: coral;
@@ -33,10 +33,20 @@ h1{
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
 }
 
 .btn:hover {
-    background-color: rgba(255, 127, 81, 0.726);
+    background-color: rgba(255, 127, 81, 0.911);
     border: outset;
     color: black;
+  }
+
+  .btn:active {
+    background-color: rgba(255, 127, 81, 0.911);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
